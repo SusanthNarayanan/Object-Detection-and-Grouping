@@ -1,4 +1,4 @@
-# Object Detection and Grouping System with Visualization  
+# Object Detection and Grouping System with Visualization (Basic)
 
 ## Overview  
 This project implements an AI-powered pipeline for object detection, grouping, and visualization using a Flask web application. The core features include:  
