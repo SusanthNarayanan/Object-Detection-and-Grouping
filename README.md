@@ -1,5 +1,3 @@
-﻿# Object-Detection-and-Grouping
-
 # Object Detection and Grouping System with Visualization  
 
 ## Overview  
