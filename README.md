@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Object Detection and Grouping System</title>
+
 </head>
 <body>
-  <h1>Object Detection and Grouping System with Visualization</h1>
+  <h1>Object Detection and Grouping System with Visualization (Basic)</h1>
 
   <h2>Overview</h2>
   <p>
