@@ -82,4 +82,70 @@ project/
 ├── utils/  
 │   └── visualization.py     # Visualization utilities for drawing bounding boxes  
 ├── requirements.txt         # Python dependencies  
-└── README.md                # Project documentation  
+└── README.md                # Project documentation
+
+
+---
+
+<h1>Steps to Run the Project</h1>
+
+<h2>1. Extract the ZIP File</h2>
+<p>Extract the project folder to your desired location.</p>
+
+<h2>2. Set Up a Virtual Environment</h2>
+<pre>
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# Windows
+.\venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+</pre>
+
+<h2>3. Install Dependencies</h2>
+<p>Install the required libraries from <code>requirements.txt</code>:</p>
+<pre>
+pip install -r requirements.txt
+</pre>
+
+<h2>4. Prepare Folders</h2>
+<p>Ensure the following folders exist:</p>
+<ul>
+  <li><code>sample_images/</code>: For input images.</li>
+  <li><code>static/visualizations/</code>: To save output visualizations.</li>
+</ul>
+
+<h2>5. Run the Flask Server</h2>
+<p>Start the application using:</p>
+<pre>
+python app.py
+</pre>
+
+<h2>6. Access the Application</h2>
+<p>Open your browser and navigate to:</p>
+<pre>
+http://127.0.0.1:5000/
+</pre>
+
+<h2>7. Upload Images and Process</h2>
+<ul>
+  <li>Use the web interface to upload images and set thresholds for detection.</li>
+  <li>Results (detections, groupings) are returned as JSON, and visualized images are saved in <code>static/visualizations/</code>.</li>
+</ul>
+
+<h2>8. Bulk Processing</h2>
+<p>To process all images in the <code>sample_images/</code> folder, navigate to:</p>
+<pre>
+http://127.0.0.1:5000/process_bulk
+</pre>
+
+<h2>9. Stop the Server</h2>
+<p>To stop the Flask server:</p>
+<pre>
+Ctrl + C
+# Deactivate the virtual environment
+deactivate
+</pre>
+
