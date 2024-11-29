@@ -135,11 +135,9 @@ project/
 # Create a virtual environment
 python -m venv venv
 
-# Activate the virtual environment
+Activate the virtual environment
 # Windows
 .\venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
   </pre>
 
   <h3>3. Install Dependencies</h3>
